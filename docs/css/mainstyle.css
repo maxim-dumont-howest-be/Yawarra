@@ -68,6 +68,11 @@ header{
     }
 }
 
+li:hover{
+    padding-bottom: 15px;
+    transition: 0.3s;
+}
+
 /*NAVIGATION BAR*/
 
 nav.topnav{
@@ -104,6 +109,35 @@ div.Language>a{
     color: #fcb42f;
 }
 
+
+
+/*paragraph Styling*/
+
+section{
+    width: 80%;
+    margin: 20px 10%;
+    background-color:rgb(196, 168, 75);
+    border: sienna solid 2px;
+    border-radius: 5px;
+    min-height: 100px;
+    text-align: justify;
+    padding: 20px;
+}
+
+section:first-of-type{
+    margin-top: 8%;
+}
+
+
+section h2{
+margin-bottom: 15px;
+text-decoration: underline 2px solid;
+}
+
+
+
+
+/*Queries*/
 
 @media (max-width:800px) {
     nav li{
