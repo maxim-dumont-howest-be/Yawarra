@@ -12,9 +12,60 @@ html{
 
 body{
     background-color: #668C4E;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+/*ANIMATION - HEADER*/
+
+header{
+    width: 100%;
+}
+
+#Yawarra{
+    font-family: 'Benne', serif;
+    font-size: 72pt;
+    color: #4b1404;
+
+    left:0;
+    right:0;
+    top: 0;
+  
+    margin-left: auto;
+    margin-right: auto;
+  
+    position: absolute;
+    width: 40%;
+    text-align: center;
 }
 
 
+.banner-animation-topleft{
+    width: 580px;
+    height: 200px;
+    background: transparent url(/images/sprite_topleft.png) 0 0 no-repeat;
+    animation: grower 1.5s steps(8);
+}
+
+.banner-animation-topright{
+    width: 520px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: transparent url(/images/sprite_topright.png) no-repeat;
+    animation: grower 1.5s steps(8);
+}
+
+@keyframes grower {
+    from{
+        background-position: 0 0;
+    }
+    to{
+        background-position: 0 -1600px;
+    }
+}
 
 /*NAVIGATION BAR*/
 
@@ -40,4 +91,16 @@ nav li>a{
 
 nav li.current{
     padding-bottom: 15px;
+}
+
+
+@media (max-width:800px) {
+    #Yawarra{
+        width: 80%;
+    }
+
+    nav li{
+        width: 100%;
+    }
+    
 }
