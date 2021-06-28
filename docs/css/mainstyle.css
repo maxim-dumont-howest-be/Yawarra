@@ -28,16 +28,10 @@ header{
     font-family: 'Benne', serif;
     font-size: 72pt;
     color: #4b1404;
-
-    left:0;
-    right:0;
-    top: 0;
-  
-    margin-left: auto;
-    margin-right: auto;
-  
     position: absolute;
-    width: 40%;
+    top: 20px;
+    width: 100%;
+    text-align: center;
     text-align: center;
 }
 
@@ -96,10 +90,6 @@ nav li.current{
 
 
 @media (max-width:800px) {
-    .Yawarra{
-        width: 80%;
-        top: 20px;
-    }
     nav li{
         width: 100%;
     }
