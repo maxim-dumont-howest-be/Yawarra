@@ -18,6 +18,11 @@ body{
     overflow-x:hidden
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
 /*ANIMATION - HEADER*/
 
 header{
@@ -87,6 +92,16 @@ nav li>a{
 
 nav li.current{
     padding-bottom: 15px;
+}
+
+div.Language{
+    position: absolute;
+    left: 5%;
+    padding-top: 10px;
+}
+
+div.Language>a{
+    color: #fcb42f;
 }
 
 
