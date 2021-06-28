@@ -95,9 +95,11 @@ nav li.current{
 
 
 @media (max-width:800px) {
-    #Yawarra{
+    .Yawarra{
         width: 80%;
+
     }
+
 
     nav li{
         width: 100%;
