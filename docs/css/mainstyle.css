@@ -98,10 +98,16 @@ nav li.current{
 @media (max-width:800px) {
     .Yawarra{
         width: 80%;
-
     }
     nav li{
         width: 100%;
     }
+
+    html, body {
+        overflow-x: hidden;
+      }
+      body {
+        position: relative
+      }
     
 }
