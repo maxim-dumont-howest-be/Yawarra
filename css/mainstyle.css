@@ -1,3 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+*,*:before,*:after{
+	box-sizing: inherit;
+}
+
+html{
+	box-sizing: border-box;
+}
+
 body{
-    background-color: green;
+    background-color: #668C4E;
+}
+
+
+
+/*NAVIGATION BAR*/
+
+nav.topnav{
+    width: 90%;
+    margin: 0 5%;
+}
+
+nav li{
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    border-bottom: white solid 2px;
+    padding: 10px;
+}
+
+nav li>a{
+    color: white;
+    text-decoration: none;
+    font-family: Roboto, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+nav li.current{
+    padding-bottom: 15px;
 }
