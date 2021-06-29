@@ -100,7 +100,8 @@ nav li.current{
 }
 
 div.Language{
-    margin-left: 5%;
+    position:absolute;
+    right: 5%;
     padding-top: 10px;
 }
 
