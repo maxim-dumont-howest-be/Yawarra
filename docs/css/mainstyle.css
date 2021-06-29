@@ -110,6 +110,10 @@ div.Language>a{
     color: #fcb42f;
 }
 
+main{
+    margin-top: 40px;
+}
+
 
 
 /*paragraph Styling*/
@@ -155,5 +159,11 @@ text-decoration: underline 2px solid;
     body {
         position: relative
     }
-    
+}
+
+@media (max-width:1250px) {
+    section{
+        width: 90%;
+        margin-left: 5%;
+    }
 }
