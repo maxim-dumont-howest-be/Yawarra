@@ -24,7 +24,7 @@ section>h2{
     text-decoration: none;    
 }
 
-.button-back{
+#button-back{
     display: block;
     height: 50px;
     width: 200px;
