@@ -1,7 +1,8 @@
 #art1{
-    height: 1000px;
+    max-height: 1000px;
     float: left;
     padding: 20px;
+    max-width: 1200px;
 }
 
 section{
