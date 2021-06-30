@@ -159,6 +159,16 @@ text-decoration: underline 2px solid;
     body {
         position: relative
     }
+
+    .Yawarra{
+        font-size: 50pt;
+    }
+
+    div#button-back{
+        width: 40%;
+        margin-left: 30%;
+        margin-right: 30%;
+    }
 }
 
 @media (max-width:1250px) {
