@@ -159,6 +159,14 @@ text-decoration: underline 2px solid;
     margin-left: 10%;
 }
 
+/* Main content*/
+
+img#hero{
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 40px;
+}
+
 
 /*Footer*/
 
@@ -189,6 +197,10 @@ text-decoration: underline 2px solid;
         width: 40%;
         margin-left: 30%;
         margin-right: 30%;
+    }
+    img#hero{
+        width: 90%;
+        margin-left: 5%;
     }
 }
 
