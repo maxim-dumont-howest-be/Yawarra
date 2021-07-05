@@ -209,4 +209,9 @@ img#hero{
         width: 90%;
         margin-left: 5%;
     }
+
+    img#hero{
+        width: 80%;
+        margin-left: 10%;
+    }
 }
