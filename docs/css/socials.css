@@ -1,52 +1,56 @@
 /* Socials */
- 
-.socials{
-    width: 80%;
-    margin-left: 10%;
-    margin-top: 50px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
+
+.socials {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
-#facebook,#insta,#redbubble,#pinterest,#tiktok,#mail,#twitter,#tumblr{
-
-    width: 100px;
-    height: 100px;
-    margin: 10px;
+#facebook,
+#insta,
+#redbubble,
+#pinterest,
+#tiktok,
+#mail,
+#twitter,
+#tumblr {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
 }
 
-#facebook{
-    background-image: url(Yawarra/assets/images/socials/FB.png);
+#facebook {
+  background-image: url(../assets/images/socials/FB.png);
 }
 
-#insta{
-    background-image: url(Yawarra/assets/images/socials/insta.png);
+#insta {
+  background-image: url(../assets/images/socials/insta.png);
 }
 
-#redbubble{
-    background-image: url(Yawarra/assets/images/socials/redbubble.png);
+#redbubble {
+  background-image: url(../assets/images/socials/redbubble.png);
 }
 
-#pinterest{
-    background-image: url(Yawarra/assets/images/socials/pinterest.png);
+#pinterest {
+  background-image: url(../assets/images/socials/pinterest.png);
 }
 
-#tiktok{
-    background-image: url(Yawarra/assets/images/socials/tiktok.png);
+#tiktok {
+  background-image: url(../assets/images/socials/tiktok.png);
 }
 
-#mail{
-    background-image: url(Yawarra/assets/images/socials/mail.png);
+#mail {
+  background-image: url(../assets/images/socials/mail.png);
 }
 
-
-#twitter{
-    background-image: url(Yawarra/assets/images/socials/twitter.png);
+#twitter {
+  background-image: url(../assets/images/socials/twitter.png);
 }
 
-
-#tumblr{
-    background-image: url(Yawarra/assets/images/socials/tumblr.png);
+#tumblr {
+  background-image: url(../assets/images/socials/tumblr.png);
 }
