@@ -33,20 +33,3 @@
 #tumblr { background-image: url(../assets/images/socials/tumblr.png);}
 
 
-/*Details*/
-
-.container{
-  display: grid;
-  grid-template-columns: 1px 1fr 1fr;
-  grid-template-rows: auto;
-}
-
-/*Media Queries*/
-
-@media only screen and (max-width:1250px) {
-  .container{
-    grid-template-columns: 1fr;
-    grid-template-rows: 1px 1fr 5em;
-  }
-}
-
