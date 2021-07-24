@@ -23,34 +23,30 @@
   margin: 10px;
 }
 
-#facebook {
-  background-image: url(../assets/images/socials/FB.png);
+#facebook { background-image: url(../assets/images/socials/FB.png);}
+#insta { background-image: url(../assets/images/socials/insta.png);}
+#redbubble { background-image: url(../assets/images/socials/redbubble.png);}
+#pinterest { background-image: url(../assets/images/socials/pinterest.png);}
+#tiktok { background-image: url(../assets/images/socials/tiktok.png);}
+#mail { background-image: url(../assets/images/socials/mail.png);}
+#twitter { background-image: url(../assets/images/socials/twitter.png);}
+#tumblr { background-image: url(../assets/images/socials/tumblr.png);}
+
+
+/*Details*/
+
+.container{
+  display: grid;
+  grid-template-columns: 1px 1fr 1fr;
+  grid-template-rows: auto;
 }
 
-#insta {
-  background-image: url(../assets/images/socials/insta.png);
+/*Media Queries*/
+
+@media only screen and (max-width:1250px) {
+  .container{
+    grid-template-columns: 1fr;
+    grid-template-rows: 1px 1fr 5em;
+  }
 }
 
-#redbubble {
-  background-image: url(../assets/images/socials/redbubble.png);
-}
-
-#pinterest {
-  background-image: url(../assets/images/socials/pinterest.png);
-}
-
-#tiktok {
-  background-image: url(../assets/images/socials/tiktok.png);
-}
-
-#mail {
-  background-image: url(../assets/images/socials/mail.png);
-}
-
-#twitter {
-  background-image: url(../assets/images/socials/twitter.png);
-}
-
-#tumblr {
-  background-image: url(../assets/images/socials/tumblr.png);
-}

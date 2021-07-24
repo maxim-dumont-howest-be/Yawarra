@@ -1,12 +1,12 @@
 #art1{
     max-height: 1000px;
-    float: left;
+
     padding: 20px;
     max-width: 1200px;
 }
 
 section{
-    min-height: 1050px;
+    height: auto;
     position: relative;
 }
 
@@ -43,11 +43,9 @@ section>h2{
 
 /*Queries*/
 
-@media (max-width:1250px) {
+@media (max-width:1200px) {
     #art1{
-        float: none;
         width: 100%;
-        height: auto;
     }
 
     .button-back{
@@ -69,4 +67,7 @@ section>h2{
         margin-left: 5%;
     }
 
+}
+
+@media only screen and (max-width:840px) {
 }

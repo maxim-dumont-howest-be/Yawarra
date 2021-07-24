@@ -44,27 +44,57 @@
 
 .ten{background-image: url(../assets/images/winged_death.jpg);}
 
+@media screen and (max-width: 1500px) {
+    .gallery{
+        width: 96%;
+        margin: 10% 2%;
+    }
+}
+
+
 @media screen and (max-width: 1000px) {
     .gallery{
         width: 90%;
         margin: 5%;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(10,auto);
-        grid-gap: 0;
+        display: block;
     }
 
     .gallery a{
+        display: block;
         padding-bottom: 10px;
         min-height: 400px;
         background-position: top center;
     }
 
     .square{
-        height: 550px;
+        height: 700px;
     }
 
     .vertical{
-        height: 750px;
+        height: 900px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .square{
+        height: 500px;
     }
 
+    .vertical{
+        height: 700px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    .gallery a{
+        min-height: 200px;
+    }
+    .square{
+        height: 300px;
+    }
+
+    .vertical{
+        height: 400px;
+    }
 }
